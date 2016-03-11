@@ -1,6 +1,16 @@
+sudo: false
 language: node_js
 node_js:
-  - v5
-  - v4
-  - '0.12'
-  - '0.10'
+- v5
+- v4
+- '0.12'
+- '0.10'
+deploy:
+  provider: npm
+  email: ikocel1@gmail.com
+  api_key:
+    secure: ezLB84LAw2RVZXBXrWKvtsvsw45sf7Ou5ltDCxL8i5X0pZjOBNKYsF/bZX7akT2cxtD7RI+mUhDCfVI0CmuZpyneWZDJhIp9t10/MLPPDPFbNcRlrsvsQ/rgFKWrvUGo28nXww9YG3Ks4ovIzjb6WSDFH2BdooElw2eUveCbx5+fji+jkhxA6Lt2ikDI051xTVDMkznf1d6G8Lit1a/6saIySgW7Ra6RYVsc5BM1L5mEikIHXjwChVA4vjdpp0xDwtLUEcJVw59SulNAbSKZRsV6SYKgMJSEGYP7MGiEW0GuxY+PjbJ/QM+ShxslOdWS6eyKhSRcuiYbGpvMYACmod+dZbl8QUOyhCRcjGk5z3FKsoa1eDbJzpe8CTi2y78YAtdaofYO+u6clywu97qGjy7E4lGoLhkGWRWRmjCtrhsjImlIPLMeNV5wV+BFT/m7Labssir+RI8NsPaYUFCuer7YYPcPvEwpun36ead1xefi0t/PIBJFueqB3qSX0umfCcHgYzVCswEhx5E4GrhHI0L0JBitKvJfFYkznlRCiWjD3u7vJ/m+3yCyhBhm2YeBQrH/zuUd3L3gZcT39pGiwWQftih6f0kKBjrjwFggg6opgDYAWqdx25usUwcQbGjIDwHU8e19kvExT6ZzO4NibmyNoAF5MJyppxvrbKtxKW4=
+  on:
+    tags: true
+    repo: ferranvila/typeform.io
+    branch: master
