@@ -4,6 +4,7 @@
 [![David](https://img.shields.io/david/ferranvila/typeform.io_poc.svg)](https://david-dm.org/ferranvila/typeform.io_poc)
 [![Code Climate](https://img.shields.io/codeclimate/github/ferranvila/typeform.io_poc.svg)](https://codeclimate.com/github/ferranvila/typeform.io_poc)
 [![Codacy](https://img.shields.io/codacy/507a43ad67e64e6ea67b7a64faa8b2ce.svg)](https://www.codacy.com/app/fnva/typeform-io_poc)
+[![Coverage Status](https://coveralls.io/repos/github/ferranvila/typeform.io_poc/badge.svg?branch=master)](https://coveralls.io/github/ferranvila/typeform.io_poc?branch=master)
 [![Inline docs](http://inch-ci.org/github/ferranvila/typeform.io_poc.svg?branch=master)](http://inch-ci.org/github/ferranvila/typeform.io_poc)
 
 
