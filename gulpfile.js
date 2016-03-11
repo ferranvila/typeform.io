@@ -16,7 +16,7 @@ var isparta = require('isparta');
 require('babel-core/register');
 
 gulp.task('static', function () {
-  return gulp.src('lib/**/*.js')
+  return gulp.src(['lib/**/*.js','examples/**/*.js','test/**/*.js'])
     .pipe(excludeGitignore())
     .pipe(eslint())
     .pipe(eslint.format())
