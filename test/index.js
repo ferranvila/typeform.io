@@ -1,9 +1,9 @@
 import assert from 'assert';
-import typeformIoPoc from '../lib';
+import typeformIo from '../lib';
 
-describe('typeform-io-poc', function () {
+describe('typeform-io', function () {
   it('test the test!', function (done) {
-    typeformIoPoc.test(result => {
+    typeformIo.test(result => {
       assert(result, '');
       done();
     });
