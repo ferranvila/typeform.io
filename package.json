@@ -1,8 +1,8 @@
 {
-  "name": "typeform-io-poc",
+  "name": "typeform-io",
   "version": "0.0.1",
   "description": "Typeform.io Prove Of Concept",
-  "homepage": "https://github.com/ferranvila/typeform.io_poc",
+  "homepage": "https://github.com/ferranvila/typeform.io",
   "author": {
     "name": "Vila Conesa, Ferran",
     "email": "ikocel1@gmail.com",
@@ -42,7 +42,7 @@
       "mocha": true
     }
   },
-  "repository": "https://github.com/ferranvila/typeform.io_poc.git",
+  "repository": "https://github.com/ferranvila/typeform.io.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
