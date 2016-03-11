@@ -1,5 +1,5 @@
 const typeformIo = require('..');
 
-typeformIo.test(function(result) {
+typeformIo.test(result => {
   console.log(result);
 });
